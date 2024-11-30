@@ -1,0 +1,14 @@
+.center_plot {
+    margin: auto;
+    text-align: center;
+}
+
+.section {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}

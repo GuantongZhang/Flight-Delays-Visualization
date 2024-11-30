@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="script.js">
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+</head>
+
+<body onload=project()>
+
+    <h1 class="section">Why Are Flights Delayed?</h1>
+    <h2 class="section">Data Analysis and Visualization on US Domestic Flights in 2015</h2>
+
+    <h3>Background</h3>
+    <div>The United States is the country that operates the most flights, but the delays are also massive!
+        In 2015, among the approximately 5.8 million domestic flights in the US, 36% of them were delayed.</div>
+    <br>
+    <div>In fact, the delays has correlation with the time of the year, airline, and the origin state.</div>
+    <br>
+    
+    <div id="part1_plot" class="center_plot"></div>
+    <div id="part2_plot" class="center_plot"></div>
+    <div id="part3_plot" class="center_plot"></div>
+
+    <h3>Summary</h3>
+    <div>In this project, I visualized the flight delays and multiple factors that may affect them. My dataset contains
+        detailed information of 5,819,079 US domestic flights in 2015. Also, I used a dataset with the location
+        information of the airports. </div>
+    <br>
+    <div>The line plot visualizes both the average departure and arrival delay of all domestic flights in 2015, from
+        January
+        to December. There is a clear pattern that the delay time increase in June and December, which are popular time
+        for holiday.</div>
+    <br>
+    <div>The bar plot visualizes both the average arrival delay time of each airline, sorted in ascending order. Alaska
+        Airlines is most punctual, whereas Spirit Airlines has the longest average delay time.</div>
+    <br>
+    <div>The map visualizes the average arrival delay time of the flights departed from each state by using different
+        colors.
+        Also, it also visualizes the routes connecting the six busiest US airports in 2015, and the delays of each
+        route.</div>
+    <br>
+
+    <h3>References</h3>
+    <div>https://figshare.com/articles/dataset/flights_csv/9820139/1</div>
+    <br>
+    <div>https://ourairports.com/countries/US/airports.hxl</div>
+    <br>
+    <div>https://www.transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGJ&QO_fu146_anzr=b0-gvzr</div>
+
+</body>
+
+</html>
