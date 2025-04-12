@@ -5,8 +5,8 @@ In 2015, among the approximately 5.8 million domestic flights in the US, 36 perc
 
 # Running the script
 
-cd Flight-Delays-Visualization
-unzip data.zip
-python3 -m http.server
+- cd Flight-Delays-Visualization
+- unzip data.zip
+- python3 -m http.server
 
 Then in browser, open http://localhost:8000/project/
